@@ -1,0 +1,21 @@
+{
+  "name": "novabot",
+  "version": "1.0.0",
+  "description": "Discord but for Private use",
+  "main": "index.js",
+  "scripts": {
+    "test": "ping"
+  },
+  "author": "Javon Mais",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.0",
+    "parse-ms-2": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
