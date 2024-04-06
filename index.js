@@ -19,13 +19,6 @@ const client = new Client({
     ],
 });
 
-var coolVar = '123-abc-itchy-knee';
-var partsArray = coolVar.split('-');
-
-for (var i of partsArray){
-    console.log(i);
-}
-
 const eventsPath = path.join(__dirname, "events");
 const eventFiles = fs.readdirSync(eventsPath).filter((file)=>file.endsWith(".js"));
 
@@ -58,8 +51,7 @@ for (const file of commandFiles){
 }
 
 mongoose.connect(database, {
-    useNewURLParser: true,
-    useUnifiedTopology: true
+    
 }).then(()=>{
     console.log("connected to DB");
 }).catch((err)=>{

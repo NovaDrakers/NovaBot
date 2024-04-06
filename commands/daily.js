@@ -42,6 +42,6 @@ module.exports ={
             console.log(err);
         }
 
-        await interaction.editReply(`You gained $${randomAmt}`);
+        await interaction.editReply(`<@${id}> gained $${randomAmt}`);
     },
 };

@@ -5,15 +5,13 @@ const profileModel = require("../models/profileSchema.js");
 module.exports = {
     name: Events.InteractionCreate,
     async execute(interaction) {
-        if (!interaction.isChatInputCommand()) return;
-        
-        let profileData;
+        if (interaction.isChatInputCommand()){
+            let profileData;
         try{
             profileData = await profileModel.findOne({userID: interaction.user.id});
             if (!profileData){
                 profileData = await profileModel.create({
-                    userID: interaction.user.id,
-                    serverId: interaction.guild.id,
+                    userID: interaction.user.id
                 });
             }
         } catch(err){
@@ -35,6 +33,15 @@ module.exports = {
         } catch (error) {
             console.error(`Error executing ${interaction.commandName}`);
             console.error(error);
+        }
+        };
+        if(interaction.isButton()){
+            if(interaction.customId == `Button1`){
+                interaction.reply("Clicked Button 1");
+            }
+            if(interaction.customId == `Button2`){
+                interaction.reply("Clicked Button 2");
+            }
         }
     },
 };
