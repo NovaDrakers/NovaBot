@@ -18,19 +18,20 @@ module.exports ={
             var temp = fs.readFileSync("lines/" + line).toString();
             var tempArray = temp.split(`\n`);
 
-            var reply = `<@${tempArray[0]}> vs <@${tempArray[1]}>\n`;
+            var Player1 = tempArray[0];
+            var Player2 = tempArray[2];
 
-            var Option1 = await interaction.guild.members.fetch(tempArray[0]);
-            var Option2 = await interaction.guild.members.fetch(tempArray[1]);
+            var Option1 = await interaction.guild.members.fetch(Player1);
+            var Option2 = await interaction.guild.members.fetch(Player2);
 
             const Button1 = new ButtonBuilder()
-			.setCustomId(`${tempArray[0]}`)
-			.setLabel(`${Option1.user.globalName}`)
+			.setCustomId(`${Player1}`)
+			.setLabel(`${Option1.user.globalName} ${tempArray[1]}`)
 			.setStyle(ButtonStyle.Success);
 
             const Button2 = new ButtonBuilder()
-			.setCustomId(`${tempArray[1]}`)
-			.setLabel(`${Option2.user.globalName}`)
+			.setCustomId(`${Player2}`)
+			.setLabel(`${Option2.user.globalName} ${tempArray[3]}`)
 			.setStyle(ButtonStyle.Success);
 
             const row = new ActionRowBuilder()
