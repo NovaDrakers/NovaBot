@@ -1,0 +1,5 @@
+https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html
+
+mysql -h synbotdb.c9iqm406mb34.us-east-1.rds.amazonaws.com -P 3306 -u admin -p
+VSCode123456
+

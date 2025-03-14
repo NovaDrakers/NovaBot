@@ -1,0 +1,469 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DiscordBotDevelopement\\NovaBot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\commands\\resolvebet.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:commands\\resolvebet.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\commands\\replay.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:commands\\replay.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\commands\\createline.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:commands\\createline.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\commands\\draftorder.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:commands\\draftorder.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\commands\\pokecalc.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:commands\\pokecalc.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\commands\\balance.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:commands\\balance.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\commands\\draft.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:commands\\draft.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\commands\\prep.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:commands\\prep.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\commands\\wager.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:commands\\wager.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\commands\\lines.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:commands\\lines.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\commands\\money.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:commands\\money.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\commands\\createuser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:commands\\createuser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\events\\interactionCreate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:events\\interactionCreate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\commands\\archive\\ping.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:commands\\archive\\ping.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\commands\\archive\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:commands\\archive\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\globalValues.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:globalValues.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\commands\\archive\\daily.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:commands\\archive\\daily.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\events\\archive\\interactionCreate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:events\\archive\\interactionCreate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\commands\\archive\\lines.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:commands\\archive\\lines.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\commands\\archive\\createline.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:commands\\archive\\createline.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\deploy-commands.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:deploy-commands.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\commands\\archive\\balance.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:commands\\archive\\balance.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\events\\ready.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:events\\ready.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DiscordBotDevelopement\\NovaBot\\Test.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Test.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "replay.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\replay.js",
+              "RelativeDocumentMoniker": "commands\\replay.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\replay.js",
+              "RelativeToolTip": "commands\\replay.js",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-02T15:10:56.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "resolvebet.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\resolvebet.js",
+              "RelativeDocumentMoniker": "commands\\resolvebet.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\resolvebet.js",
+              "RelativeToolTip": "commands\\resolvebet.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-28T16:33:42.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "draftorder.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\draftorder.js",
+              "RelativeDocumentMoniker": "commands\\draftorder.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\draftorder.js",
+              "RelativeToolTip": "commands\\draftorder.js",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-30T15:15:01.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "prep.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\prep.js",
+              "RelativeDocumentMoniker": "commands\\prep.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\prep.js",
+              "RelativeToolTip": "commands\\prep.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-28T19:41:54.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "draft.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\draft.js",
+              "RelativeDocumentMoniker": "commands\\draft.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\draft.js",
+              "RelativeToolTip": "commands\\draft.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-28T19:40:02.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "createuser.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\createuser.js",
+              "RelativeDocumentMoniker": "commands\\createuser.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\createuser.js",
+              "RelativeToolTip": "commands\\createuser.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-28T04:35:55.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "globalValues.json",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\globalValues.json",
+              "RelativeDocumentMoniker": "globalValues.json",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\globalValues.json",
+              "RelativeToolTip": "globalValues.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-28T04:30:34.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "money.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\money.js",
+              "RelativeDocumentMoniker": "commands\\money.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\money.js",
+              "RelativeToolTip": "commands\\money.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-28T04:19:30.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "wager.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\wager.js",
+              "RelativeDocumentMoniker": "commands\\wager.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\wager.js",
+              "RelativeToolTip": "commands\\wager.js",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-27T20:02:39.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "lines.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\lines.js",
+              "RelativeDocumentMoniker": "commands\\lines.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\lines.js",
+              "RelativeToolTip": "commands\\lines.js",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-27T18:18:42.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "daily.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\archive\\daily.js",
+              "RelativeDocumentMoniker": "commands\\archive\\daily.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\archive\\daily.js",
+              "RelativeToolTip": "commands\\archive\\daily.js",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-27T18:18:20.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "index.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\index.js",
+              "RelativeDocumentMoniker": "index.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\index.js",
+              "RelativeToolTip": "index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-24T15:16:54.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "createline.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\createline.js",
+              "RelativeDocumentMoniker": "commands\\createline.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\createline.js",
+              "RelativeToolTip": "commands\\createline.js",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-27T18:00:55.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "pokecalc.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\pokecalc.js",
+              "RelativeDocumentMoniker": "commands\\pokecalc.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\pokecalc.js",
+              "RelativeToolTip": "commands\\pokecalc.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-28T19:42:39.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "balance.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\balance.js",
+              "RelativeDocumentMoniker": "commands\\balance.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\balance.js",
+              "RelativeToolTip": "commands\\balance.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-27T17:02:01.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "interactionCreate.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\events\\interactionCreate.js",
+              "RelativeDocumentMoniker": "events\\interactionCreate.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\events\\interactionCreate.js",
+              "RelativeToolTip": "events\\interactionCreate.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-27T14:49:06.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ping.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\archive\\ping.js",
+              "RelativeDocumentMoniker": "commands\\archive\\ping.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\archive\\ping.js",
+              "RelativeToolTip": "commands\\archive\\ping.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-27T14:24:49.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": ".env",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-24T15:22:27.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "admin.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\archive\\admin.js",
+              "RelativeDocumentMoniker": "commands\\archive\\admin.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\archive\\admin.js",
+              "RelativeToolTip": "commands\\archive\\admin.js",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-24T15:16:45.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "interactionCreate.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\events\\archive\\interactionCreate.js",
+              "RelativeDocumentMoniker": "events\\archive\\interactionCreate.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\events\\archive\\interactionCreate.js",
+              "RelativeToolTip": "events\\archive\\interactionCreate.js",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-27T14:45:02.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\package-lock.json",
+              "RelativeDocumentMoniker": "package-lock.json",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\package-lock.json",
+              "RelativeToolTip": "package-lock.json",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-27T17:27:59.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "deploy-commands.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\deploy-commands.js",
+              "RelativeDocumentMoniker": "deploy-commands.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\deploy-commands.js",
+              "RelativeToolTip": "deploy-commands.js",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-27T17:41:45.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "package.json",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-27T15:04:20.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ready.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\events\\ready.js",
+              "RelativeDocumentMoniker": "events\\ready.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\events\\ready.js",
+              "RelativeToolTip": "events\\ready.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-27T14:45:52.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "lines.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\archive\\lines.js",
+              "RelativeDocumentMoniker": "commands\\archive\\lines.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\archive\\lines.js",
+              "RelativeToolTip": "commands\\archive\\lines.js",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-27T14:24:18.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "createline.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\archive\\createline.js",
+              "RelativeDocumentMoniker": "commands\\archive\\createline.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\archive\\createline.js",
+              "RelativeToolTip": "commands\\archive\\createline.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-24T15:07:26.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Test.txt",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\Test.txt",
+              "RelativeDocumentMoniker": "Test.txt",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\Test.txt",
+              "RelativeToolTip": "Test.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-27T15:45:11.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "balance.js",
+              "DocumentMoniker": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\archive\\balance.js",
+              "RelativeDocumentMoniker": "commands\\archive\\balance.js",
+              "ToolTip": "D:\\DiscordBotDevelopement\\NovaBot\\commands\\archive\\balance.js",
+              "RelativeToolTip": "commands\\archive\\balance.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-24T15:06:56.405Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -3,12 +3,11 @@ require("dotenv").config();
 const fs = require("node:fs");
 const path = require("node:path");
 
-const mongoose = require("mongoose");
+const {DISCORD_TOKEN: token} = process.env;
 
-const {DISCORD_TOKEN: token, MONGODB_SRV: database} = process.env;
+const{Client, GatewayIntentBits, Collection} = require("discord.js");
 
-const{Client, GatewayIntentBits, Collection  } = require("discord.js");
-//const { execute } = require("./events/ready");
+const { createConnection } = require('mysql');
 
 const client = new Client({
     intents:[
@@ -42,20 +41,13 @@ for (const file of commandFiles){
     const filePath = path.join(commandsPath, file);
     const command = require(filePath);
 
-    if ("data" in command && "execute" in command){
+    if ("data" in command && "execute" in command) {
+        console.log(`added command ${command.data.name}`);
         client.commands.set(command.data.name, command);
     } else {
         console.log(`[WARNING] The command at ${filePath} is missing a required data or execute`);
     }
 
 }
-
-mongoose.connect(database, {
-    
-}).then(()=>{
-    console.log("connected to DB");
-}).catch((err)=>{
-    console.log(err);
-});
 
 client.login(token);

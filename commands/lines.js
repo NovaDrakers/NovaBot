@@ -1,49 +1,44 @@
-const {SlashCommandBuilder, ButtonBuilder, ButtonStyle, ActionRowBuilder, Client} = require("discord.js");
-const fs = require("node:fs");
+const { SlashCommandBuilder, ButtonBuilder, ButtonStyle, ActionRowBuilder, Client } = require("discord.js");
+const createDatabaseConnection = require('../funtions/DBConnection.js');
 
 module.exports ={
     data: new SlashCommandBuilder().setName("lines").setDescription("Display all Player Lines"),
     async execute(interaction){
+        const components = [];
 
-        var LineGroups = [];
+        var connection = createDatabaseConnection.createDatabaseConnection();
+        
+        connection.query(`SELECT * FROM bet_lines WHERE active = 1`, function (error, results) {
+            if (error) throw error;
+            var bet_lines = results;
 
-        const client = new Client({
-            intents:[
-        ],
-    });
+            connection.query(`SELECT * FROM users`, function (error, results) {
+                if (error) throw error;
 
-    const components = [];
+                var content = `Below are all the available bets:`;
 
-        for(const line of fs.readdirSync("lines")){
-            var temp = fs.readFileSync("lines/" + line).toString();
-            var tempArray = temp.split(`\n`);
+                for (const bet_record of bet_lines) {
 
-            var Player1 = tempArray[0];
-            var Player2 = tempArray[2];
+                    let wager1 = 0;
+                    let wager2 = 0;
 
-            var Option1 = await interaction.guild.members.fetch(Player1);
-            var Option2 = await interaction.guild.members.fetch(Player2);
+                    for (const result_record of results) {
+                        if (bet_record.user1 == result_record.userID) wager1 = result_record.wager_value
+                        if (bet_record.user2 == result_record.userID) wager2 = result_record.wager_value
+                    }
 
-            const Button1 = new ButtonBuilder()
-			.setCustomId(`${Player1}`)
-			.setLabel(`${Option1.user.globalName} ${tempArray[1]}`)
-			.setStyle(ButtonStyle.Success);
+                    let odds1 = (wager2 / wager1).toFixed(2);
+                    let odds2 = (wager1 / wager2).toFixed(2);
 
-            const Button2 = new ButtonBuilder()
-			.setCustomId(`${Player2}`)
-			.setLabel(`${Option2.user.globalName} ${tempArray[3]}`)
-			.setStyle(ButtonStyle.Success);
+                    content = content.concat(`\n<@${bet_record.user1}> ${odds1} vs <@${bet_record.user2}> ${odds2}`);
+                }
 
-            const row = new ActionRowBuilder()
-			.addComponents(Button1, Button2);
-
-            components.push(row);
-        }
-
-        await interaction.reply({
-            content: `Each Row is its own unique Line\nClick on the person you would like to bet on per line`,
-            components: components,
+                content = content.concat(`\nType "/wager user amount" in order to wager on your desired winner`);
+                interaction.reply(content);
+            });
         });
+
+        
 
     },
 };

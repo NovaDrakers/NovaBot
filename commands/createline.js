@@ -1,4 +1,5 @@
-const {SlashCommandBuilder, PermissionFlagsBits} = require("discord.js");
+const { SlashCommandBuilder, PermissionFlagsBits } = require("discord.js");
+const createDatabaseConnection = require('../funtions/DBConnection.js');
 const fs = require("node:fs");
 
 module.exports = {
@@ -18,31 +19,35 @@ module.exports = {
     ),
     async execute(interaction){
 
+        var connection = createDatabaseConnection.createDatabaseConnection();
+
         const Option1 = interaction.options.getUser('option1');
         const Option2 = interaction.options.getUser('option2');
-        
-        if (!fs.existsSync("lines")){
-            fs.mkdirSync("lines");
-        }
 
-        const FileName = ("lines/" + Option1 + " vs " + Option2).toString();
+        var wager1;
+        var wager2;
 
-        for(const line of fs.readdirSync("lines")){
-            var temp = fs.readFileSync("lines/" + line).toString();
-            var tempArray = temp.split(`\n`);
+        if (Option1 != Option2) {
+            connection.query(`SELECT * FROM bet_lines WHERE active = 1 AND (user1 = ${Option1.id} or user2 = ${Option1.id} or user1 = ${Option2.id} or user2 = ${Option2.id})`, function (error, results) {
+                if (results.length == 0) {
+                    connection.query(`SELECT * FROM users where userID = ${Option1.id}`, function (errror, results) {
 
-            if(Option1== tempArray[0] || Option2 == tempArray[0] || Option1 == tempArray[2] || Option2 == tempArray[2])
-            {
-                await interaction.reply("One of these players are already in a previous bet");
-                return;
-            }
-        }
+                        wager1 = results[0].wager_value;
+                        connection.query(`SELECT * FROM users where userID = ${Option2.id}`, function (errror, results) {
 
-        if (!fs.existsSync(FileName)){
-            fs.writeFileSync(FileName, Option1 + "\n100\n" + Option2 + "\n100" );
-            await interaction.reply(`Betline ${Option1} vs ${Option2} was created`);
+                            wager2 = results[0].wager_value;
+                            connection.query(`INSERT INTO bet_lines (user1, wager1, user2, wager2) VALUES (${Option1.id}, ${wager1}, ${Option2.id}, ${wager2})`);
+                        });
+                    });
+                    interaction.reply(`Line created for ${Option1} vs ${Option2}`);
+                } else {
+                    interaction.reply(`One of these users are already in an active bet`);
+                }
+            })
         } else {
-            await interaction.reply(`Betline already exists`);
+            interaction.reply(`You cannot make a line against the same users`);
         }
+
+        
     },
 };
