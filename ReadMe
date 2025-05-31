@@ -3,4 +3,12 @@ https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.Creat
 mysql -h synbotdb.c9iqm406mb34.us-east-1.rds.amazonaws.com -P 3306 -u admin -p
 VSCode123456
 
+use draftdiscordbot;
+
 select balance from users; update users set balance = balance +1000; select balance from users;
+
+
+node .
+screen -ls
+screen -S name
+Cntrl A+D
