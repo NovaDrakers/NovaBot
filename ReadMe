@@ -5,7 +5,7 @@ VSCode123456
 
 use draftdiscordbot;
 
-select balance from users; update users set balance = balance +1000; select balance from users;
+select balance from users; update users set balance = balance + 6000; select balance from users;
 
 
 node .
